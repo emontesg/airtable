@@ -1,0 +1,16 @@
+body{
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 28px;
+}
+div{
+   color : grey;
+   font-size: 18px;
+   font-weight: normal;
+}
+.main div{
+  border: 2px solid #000;
+  width: 350px;
+  height: auto;
+
+}
