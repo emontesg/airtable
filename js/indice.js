@@ -77,6 +77,8 @@ function fillData({ records }) {
 }
 function getData(id){
   console.log(id);
+  localStorage.setItem('idRecord', id);
+  window.location.href = 'data.html';
 }
 
 init();
